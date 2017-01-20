@@ -1,0 +1,67 @@
+﻿<!--Unique tags in this page:blockquote,footer,div,span--> 
+<!--All images have been taken from google.com-->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="default.css" title="default"/>
+    <link rel="alternate stylesheet" type="text/css" href="alt1.css" title="style1" />
+    <link rel="alternate stylesheet" type="text/css" href="alt2.css" title="style2"/>
+    <meta charset="utf-8" />
+    <title>Vogue Models</title>
+</head>
+<body>
+   <h1><span>VOGUE</span> MODELS</h1>
+    <!--Navigation menu-->
+   <nav>    
+       <ul>
+           <li><a href="DefaultPage.html">Home</a></li>
+           <li><a href="Models.html">Models</a></li>
+           <li><a href="News.html">News</a></li>
+           <li><a href="ContactUs.html">Contact Us</a></li>
+       </ul>   
+    </nav>
+
+    <p id="description"><blockquote>"Always give people more than they expect"</blockquote> 
+       Vogue Models is a company which focuses on providing Indian and International Models for fashion/film/advertising industry. 
+       unique approach for scouting new faces has helped us develop
+       a reputation amongst our clients. As a talent management company, we are ever mindful of the trust
+       placed in us by their clients, and seeks to establish long-lasting, fruitful relationships with each and every one.
+    </p>
+ <!--slideshow-->
+    <div class="myanimation">
+        <img class="animate" src="a.jpg">
+        <img class="animate" src="b.jpg">
+        <img class="animate" src="c.jpg">
+        <img class="animate" src="d.jpg">
+        <img class="animate" src="e.jpg">
+        <img class="animate" src="f.jpg">
+    </div>
+ 
+<!--This javascript has been taken from w3schools.com-->
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("animate");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    
+
+    <footer>
+        <hr />
+        <p id="foot">&copy; DHRUVA 2016</p>
+    </footer>
+
+</body>
+</html>

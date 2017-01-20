@@ -1,0 +1,243 @@
+﻿body
+{
+ background-color:white;
+ align-content:center;
+ max-width:100%;
+}
+span{
+    color:black;
+    animation-name: heading;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading {
+    from {
+        color: black;
+    }
+
+    to {
+        color: deeppink;
+    }
+}
+h1{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    float:right;
+    width:50%;
+    padding-top:20px;
+    font-size:70px;
+    font-weight:800;
+    color:darkmagenta;    
+}
+
+
+ul{
+    list-style-type:none;
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+    background-color:white;
+    position:fixed;
+    bottom:0;
+    border-right:1px solid black;
+}
+li{
+    display:inline;
+    text-align:center;
+    
+}
+li a{
+     border:none;
+     color:darkmagenta;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left:10px;
+     padding-right:10px;
+     text-decoration:none;
+}
+
+li a:hover{
+    border:1px solid darkmagenta;
+}
+li a:visited{
+    color:darkmagenta;
+}
+
+div.myanimation{
+    width:100%;
+    padding-top:50px;  
+    padding-bottom:200px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+#foot{
+    align-content:center;
+    text-align:center;
+}
+blockquote{
+    font-family:"Times New Roman", Helvetica, sans-serif;
+    width:100%;
+    font-size:25px;
+    font-weight:500;
+    color:darkmagenta;
+    text-align:center;
+}
+#description {
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+    align-content:flex-end;
+    text-align:end;
+}
+
+#models{
+    align-self:center;
+    width:100%;   
+    height:100%;
+}
+table img{
+    margin-bottom:15px;
+    border:solid 2px darkmagenta;
+    height:70%;
+    width:70%;
+    transition: height width 1s;
+    transition-timing-function:ease-in;
+}
+
+table img:hover{
+    width:120%;
+    height:120%;    
+}
+figcaption{
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    margin-bottom:10px;
+    font-size:15px;
+    color:darkmagenta;
+    transition: font-size 1s;
+}
+figcaption:hover{
+    font-size:30px;
+}
+
+h4{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight:500;
+    color:black;
+}
+h4 mark{
+    background-color:black;
+    color:#E6A9EC;
+}
+table section{
+    display:block;
+    width:80%;
+    height:80%;
+    padding:10px;
+    border:2px solid darkmagenta;
+    align-self:center;
+    text-align:center;
+}
+section img{
+    width:100%;
+    height:auto;
+    align-self:center;
+}
+h2{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight:500;
+    color:darkmagenta;
+    text-align:center;
+}
+section{
+    display:block;
+    margin:20px;
+    border:2px solid darkmagenta;
+    align-self:center;
+    text-align:center;
+}
+section table{
+    width:100%;
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    font-size:20px;
+    font-weight:200;
+    text-align:center;
+    padding:20px;
+}
+
+td a:hover{
+    background-color:#E6A9EC;
+}
+summary,details p{
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    font-size:10px;
+    font-weight:100;
+    text-align:center;
+    padding:10px;
+    width:20%;
+    float:right;
+    border:1px solid black; 
+}
+#news {
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+    float:right;
+    width:20%;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+
+}
+#contactus {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+    padding-right: 50px;
+}
+#morenews{
+    width:50%;
+    float:right;   
+}
+#contact {
+    align-self: center;
+    padding: 20px;
+    width: 50%;
+}
+#cimg{
+    height:150px;
+    width:auto;
+}
+fieldset{
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    font-size:20px;
+    font-weight:200;
+    align-content:center;
+    text-align:center;
+    padding:20px;
+    margin-bottom:20px;
+    width:30%;
+    border:2px solid darkmagenta; 
+    float:right;
+}
+button{
+    font-family:"Trebuchet MS", cursive, sans-serif;
+    font-size:15px;
+    background-color:black;
+    color:white;
+    font-weight:200;
+    text-align:center;
+}
